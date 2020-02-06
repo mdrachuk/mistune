@@ -1,4 +1,4 @@
-import mistune
+import mistune2
 from tests import fixtures
 from unittest import TestCase
 
@@ -11,7 +11,7 @@ class TestAstRenderer(TestCase):
         def attach_case(n, data):
 
             def method(self):
-                tokens = mistune.markdown(data['text'], renderer='ast')
+                tokens = mistune2.markdown(data['text'], renderer='ast')
                 self.assertEqual(tokens, data['tokens'])
 
             name = 'test_{}'.format(n)

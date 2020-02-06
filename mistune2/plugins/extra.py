@@ -1,5 +1,5 @@
-from mistune.scanner import escape_url
-from mistune.inline_parser import ESCAPE
+from mistune2.scanner import escape_url
+from mistune2.inline_parser import ESCAPE
 
 __all__ = ['plugin_url', 'plugin_strikethrough']
 

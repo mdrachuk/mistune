@@ -1,6 +1,6 @@
 import re
-import mistune
-from mistune.scanner import html
+import mistune2
+from mistune2.scanner import html
 from tests import BaseTestCase
 
 
@@ -135,7 +135,7 @@ class TestCommonMark(BaseTestCase):
         return (n in IGNORE_CASES) or (n in INSANE_CASES)
 
     def assert_case(self, n, text, html):
-        result = mistune.html(text)
+        result = mistune2.html(text)
         # normalize to match commonmark
         result = re.sub(r'\s*\n+\s*', '\n', result)
         result = re.sub(r'>\n', '>', result)

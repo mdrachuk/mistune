@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 # coding: utf-8
-import mistune
 from setuptools import setup
+
+import mistune2
 
 
 def fread(filepath):
@@ -10,8 +11,8 @@ def fread(filepath):
 
 
 setup(
-    name='mistune',
-    version=mistune.__version__,
+    name='mistune2',
+    version=mistune2.__version__,
     url='https://github.com/lepture/mistune',
     author='Hsiaoming Yang',
     author_email='me@lepture.com',
@@ -19,7 +20,7 @@ setup(
     long_description=fread('README.rst'),
     license='BSD',
     packages=[
-        'mistune', 'mistune.plugins', 'mistune.directives'
+        'mistune2', 'mistune2.plugins', 'mistune2.directives'
     ],
     zip_safe=False,
     platforms='any',

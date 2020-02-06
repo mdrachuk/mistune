@@ -2,7 +2,7 @@ import os
 import sys
 sys.path.insert(0, os.path.abspath('..'))
 
-import mistune
+import mistune2
 import sphinx_typlog_theme
 
 project = 'Mistune'
@@ -12,7 +12,7 @@ author = 'Hsiaoming Yang'
 master_doc = 'index'
 
 # The full version, including alpha/beta/rc tags
-version = mistune.__version__
+version = mistune2.__version__
 release = version
 
 

@@ -1,6 +1,6 @@
-from mistune import create_markdown
-from mistune.directives import DirectiveToc
-from mistune.directives.toc import render_toc_ul, extract_toc_items
+from mistune2 import create_markdown
+from mistune2.directives import DirectiveToc
+from mistune2.directives.toc import render_toc_ul, extract_toc_items
 from tests import BaseTestCase, fixtures
 
 

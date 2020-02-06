@@ -35,9 +35,9 @@ Admonitions contains a group of ``directive-name``:
 To enable admonitions::
 
     import mistune
-    from mistune.directives import Admonition
+    from mistune2.directives import Admonition
 
-    markdown = mistune.create_markdown(
+    markdown = mistune2.create_markdown(
         plugins=[Admonition()]
     )
 
@@ -69,9 +69,9 @@ The rendered HTML will show a TOC at the ``.. toc::`` position. To enable
 TOC plugin::
 
     import mistune
-    from mistune.directives import DirectiveToc
+    from mistune2.directives import DirectiveToc
 
-    markdown = mistune.create_markdown(
+    markdown = mistune2.create_markdown(
         plugins=[DirectiveToc()]
     )
 

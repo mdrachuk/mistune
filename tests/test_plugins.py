@@ -1,4 +1,4 @@
-from mistune import Markdown, AstRenderer, HTMLRenderer, plugins
+from mistune2 import Markdown, AstRenderer, HTMLRenderer, plugins
 from tests import BaseTestCase, fixtures
 
 

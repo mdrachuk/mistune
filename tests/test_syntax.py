@@ -1,10 +1,10 @@
-import mistune
+import mistune2
 from tests import BaseTestCase
 
 
 class TestSyntax(BaseTestCase):
     def assert_case(self, n, text, html):
-        result = mistune.html(text)
+        result = mistune2.html(text)
         self.assertEqual(result, html)
 
 

@@ -1,6 +1,6 @@
 import os
-from mistune import create_markdown
-from mistune.directives import DirectiveInclude
+from mistune2 import create_markdown
+from mistune2.directives import DirectiveInclude
 from tests.fixtures import ROOT
 from unittest import TestCase
 

@@ -11,7 +11,7 @@ API Reference
     Turn markdown text into HTML without escaping. For instance::
 
         text = '**hello** <span>world</span>'
-        mistune.html(text)
+        mistune2.html(text)
 
         # =>
         '<p><strong>hello</strong> <span>world</span></p>'

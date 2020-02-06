@@ -11,17 +11,17 @@ strikethrough
 
     ~~here is the content~~
 
-``mistune.html()`` has enabled strikethrough plugin by default. To create
+``mistune2.html()`` has enabled strikethrough plugin by default. To create
 a markdown instance your own::
 
-    markdown = mistune.create_markdown(plugins=['strikethrough'])
+    markdown = mistune2.create_markdown(plugins=['strikethrough'])
 
 Another way to create your own Markdown instance::
 
-    from mistune.plugins import plugin_strikethrough
+    from mistune2.plugins import plugin_strikethrough
 
-    renderer = mistune.HTMLRenderer()
-    markdown = mistune.Markdown(renderer, plugins=[plugin_strikethrough])
+    renderer = mistune2.HTMLRenderer()
+    markdown = mistune2.Markdown(renderer, plugins=[plugin_strikethrough])
 
 
 footnotes
@@ -34,17 +34,17 @@ footnotes
     [^1]: footnote explain
 
 
-``mistune.html()`` has enabled footnote plugin by default. To create
+``mistune2.html()`` has enabled footnote plugin by default. To create
 a markdown instance your own::
 
-    markdown = mistune.create_markdown(plugins=['footnotes'])
+    markdown = mistune2.create_markdown(plugins=['footnotes'])
 
 Another way to create your own Markdown instance::
 
-    from mistune.plugins import plugin_footnotes
+    from mistune2.plugins import plugin_footnotes
 
-    renderer = mistune.HTMLRenderer()
-    markdown = mistune.Markdown(renderer, plugins=[plugin_footnotes])
+    renderer = mistune2.HTMLRenderer()
+    markdown = mistune2.Markdown(renderer, plugins=[plugin_footnotes])
 
 
 table
@@ -81,17 +81,17 @@ Align formatted table:
     | :---------- | :-------------: | ------------: |
     | Conent Cell |  Content Cell   | Content Cell  |
 
-``mistune.html()`` has enabled table plugin by default. To create
+``mistune2.html()`` has enabled table plugin by default. To create
 a markdown instance your own::
 
-    markdown = mistune.create_markdown(plugins=['table'])
+    markdown = mistune2.create_markdown(plugins=['table'])
 
 Another way to create your own Markdown instance::
 
-    from mistune.plugins import plugin_table
+    from mistune2.plugins import plugin_table
 
-    renderer = mistune.HTMLRenderer()
-    markdown = mistune.Markdown(renderer, plugins=[plugin_table])
+    renderer = mistune2.HTMLRenderer()
+    markdown = mistune2.Markdown(renderer, plugins=[plugin_table])
 
 
 url
@@ -109,7 +109,7 @@ Will be converted into:
 
     <p>For instance, <a href="https://typlog.com/>https://typlog.com/</a></p>
 
-This plugin is **NOT ENABLED** by default in ``mistune.html()``. Mistune
+This plugin is **NOT ENABLED** by default in ``mistune2.html()``. Mistune
 values explicit, and we suggest writers to write links in:
 
 .. code-block:: text
@@ -118,11 +118,11 @@ values explicit, and we suggest writers to write links in:
 
 To enable **url** plugin with your own markdown instance::
 
-    markdown = mistune.create_markdown(plugins=['url'])
+    markdown = mistune2.create_markdown(plugins=['url'])
 
 Another way to create your own Markdown instance::
 
-    from mistune.plugins import plugin_url
+    from mistune2.plugins import plugin_url
 
-    renderer = mistune.HTMLRenderer()
-    markdown = mistune.Markdown(renderer, plugins=[plugin_url])
+    renderer = mistune2.HTMLRenderer()
+    markdown = mistune2.Markdown(renderer, plugins=[plugin_url])

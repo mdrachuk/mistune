@@ -1,6 +1,6 @@
 import re
-from mistune.inline_parser import LINK_LABEL
-from mistune.scanner import unikey
+from mistune2.inline_parser import LINK_LABEL
+from mistune2.scanner import unikey
 
 __all__ = ['plugin_footnotes']
 

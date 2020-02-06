@@ -1,6 +1,6 @@
 import json
-from mistune import create_markdown
-from mistune.directives import Admonition
+from mistune2 import create_markdown
+from mistune2.directives import Admonition
 from tests import fixtures
 from unittest import TestCase
 

@@ -17,7 +17,7 @@ clean-build:
 	@rm -fr build/
 	@rm -fr dist/
 	@rm -fr *.egg-info
-	@rm -f mistune.c
+	@rm -f mistune2.c
 	@rm -fr cover/
 
 

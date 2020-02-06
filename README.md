@@ -12,16 +12,16 @@ A fast yet powerful Python Markdown parser with renderers and plugins.
 <a href="https://ci.appveyor.com/project/lepture/mistune"><img src="https://badgen.net/appveyor/ci/lepture/mistune" alt="AppVeyor CI"></a>
 
 
-**NOTE: This is the re-designed v2 of mistune. Check `v1` branch for earlier code.**
+**NOTE: This is the re-designed v2 of mistune2. Check `v1` branch for earlier code.**
 
 ## Overview
 
 Convert Markdown to HTML with ease:
 
 ```python
-import mistune
+import mistune2
 
-mistune.html(your_markdown_text)
+mistune2.html(your_markdown_text)
 ```
 
 ## Sponsors
